@@ -158,3 +158,9 @@ img {
     height: 100%;
     background-color: #f99233;
 }
+
+@media (max-width: 800px) {
+    .doar {
+        display: none;
+    }
+}
