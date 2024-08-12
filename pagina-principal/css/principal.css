@@ -1,0 +1,160 @@
+body {
+    font-family: 'Inter';font-size: 18px;
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    display:block;
+}
+
+.tw-flex {
+    display: flex;
+}
+
+.tw-w-full {
+    width: 100%;
+}
+
+.tw-justify-center {
+    justify-content: center;
+}
+
+.tw-justify-end {
+    justify-content: end;
+}
+
+.tw-align-center {
+    align-items: center;
+}
+
+.tw-mx-auto {
+    margin-left: auto; margin-right: auto;
+}
+
+.basic-button {
+    --button-primary-color: green;
+    --button-shadow: black;
+    background-color: grey;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--button-primary-color);
+    box-shadow: 0 2px 0 0px var(--button-shadow);
+}
+
+.basic-button--cinza {
+    --button-primary-color: #E1E1E1;
+    --button-shadow: #BBBBBB;
+}
+
+.basic-button--amarelo {
+    --button-primary-color: #F2CA52;
+    --button-shadow: #C39C36;
+}
+
+.container-wide {
+    max-width: 1200px;
+}
+
+.subheader {
+    border-top: 1px solid #9e9e9e;
+    background-color: #ECECEC;
+}
+.test {
+    background-color: aqua;
+}
+
+.bixolista {
+    gap: 50px;
+    direction:rtl;
+    list-style: url("../../img/downArrow.png");
+}
+
+.footer {
+    background-color: black;
+}
+
+.footer-text {
+    color: white;
+    width: 240px;
+}
+
+.footer-list {
+    color: #C3C3C3;
+    list-style: none;
+    padding-left: 0px; 
+}
+
+.footer-list li{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.redes {
+    margin-top: 18.72px;
+}
+
+.tw-text-align-center {
+    text-align: center;
+}
+
+.intro {
+    max-width: 800px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 25px;
+}
+
+.intro-head {
+    color: #D93D04;
+}
+
+.intro-subhead {
+    color: #3D3D3D;
+}
+
+.info-bg {
+    background-color: #ff7500;
+}
+
+.info-text > h1{
+    color:white;
+    font-size: 75px;
+    margin-bottom: 0px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.226);
+}
+
+.info-text > h4{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 40px;
+}
+
+.mountain2 {
+    background-image: url("../../img/mountain2.png");
+    background-size: cover;
+    height: 230px;
+}
+
+.pessoa1 {
+    background-image: url("../../img/pessoa1.png");
+    width: 151px;
+    height: 151px;
+    position: relative;
+    bottom: 100px;
+    left: 20%;
+}
+
+.pessoa2 {
+    background-image: url("../../img/pessoa2.png");
+    width: 151px;
+    height: 151px;
+    position: relative;
+    bottom: 100px;
+    left: 60%;
+}
+
+.info-bg2 {
+    height: 100%;
+    background-color: #f99233;
+}
